@@ -23,6 +23,7 @@ public class AutocompleteApp {
     trieOperation.insert("catch");
 
     List a= trieOperation.autocomplete("shi");
+    // Expected output - ship, shipment, shipping
     for (int i = 0; i < a.size(); i++) {
       System.out.println(a.get(i));
     }
